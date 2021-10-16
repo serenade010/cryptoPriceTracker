@@ -1,0 +1,80 @@
+.card {
+    display: flex;
+    margin: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2rem;
+    width: 18rem;
+    height: 12rem;
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.higher {
+    font-size: 3rem;
+    animation: higher 4s
+}
+
+.lower {
+    font-size: 3rem;
+    animation: lower 4s
+}
+
+@keyframes higher {
+    0% {
+        color: red;
+    }
+    50% {
+        color: red;
+    }
+    80% {
+        color: black;
+    }
+}
+
+@keyframes lower {
+    0% {
+        color: green;
+    }
+    50% {
+        color: green;
+    }
+    80% {
+        color: black;
+    }
+}
+
+.changeRate {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.posRate {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: green;
+}
+
+.negRate {
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: red;
+}
