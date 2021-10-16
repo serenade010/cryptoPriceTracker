@@ -16,10 +16,10 @@
     align-items: center;
 }
 
-.svg {
-    height: 3rem;
+img {
     width: 3rem;
-    margin-right: 1rem;
+    height: 3rem;
+    margin-right: 0.5rem;
 }
 
 h3 {

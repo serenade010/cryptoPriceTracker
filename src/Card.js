@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import SVG from 'react-inlinesvg';
 import './Card.css';
 
 function Card({ symbol }) {
@@ -30,14 +29,14 @@ function Card({ symbol }) {
 
   useEffect(() => {
     fetchData();
-    setInterval(fetchData, Math.random() * 5000 + 4000);
+    setInterval(fetchData, Math.random() * 8000 + 4000);
     // eslint-disable-next-line
   }, []);
 
   return bumpy && bumpy < 0 ? (
     <div className="card">
       <div className="info">
-        <SVG src={`/images/${symbolLower}.svg`} className="svg"></SVG>
+        <img src={require(`./images/${symbolLower}.svg`).default} alt="icon" />
         <h3>{symbol}</h3>
       </div>
       <p className="higher" key={bumpy}>
@@ -55,7 +54,7 @@ function Card({ symbol }) {
   ) : (
     <div className="card">
       <div className="info">
-        <SVG src={`/images/${symbolLower}.svg`} className="svg"></SVG>
+        <img src={require(`./images/${symbolLower}.svg`).default} alt="icon" />
         <h3>{symbol}</h3>
       </div>
       <p className="lower" key={bumpy}>
