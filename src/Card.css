@@ -70,11 +70,11 @@ h3 {
 .posRate {
     margin-left: 2rem;
     font-size: 1.5rem;
-    color: green;
+    color: red;
 }
 
 .negRate {
     margin-left: 2rem;
     font-size: 1.5rem;
-    color: red;
+    color: green;
 }
