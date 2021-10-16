@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cryptoPriceTracker/static/css/main.8031bef8.chunk.css",
+    "main.css": "/cryptoPriceTracker/static/css/main.98ba05b5.chunk.css",
     "main.js": "/cryptoPriceTracker/static/js/main.4df2181d.chunk.js",
     "main.js.map": "/cryptoPriceTracker/static/js/main.4df2181d.chunk.js.map",
     "runtime-main.js": "/cryptoPriceTracker/static/js/runtime-main.ded9c292.js",
@@ -8,7 +8,7 @@
     "static/js/2.af3f57eb.chunk.js": "/cryptoPriceTracker/static/js/2.af3f57eb.chunk.js",
     "static/js/2.af3f57eb.chunk.js.map": "/cryptoPriceTracker/static/js/2.af3f57eb.chunk.js.map",
     "index.html": "/cryptoPriceTracker/index.html",
-    "static/css/main.8031bef8.chunk.css.map": "/cryptoPriceTracker/static/css/main.8031bef8.chunk.css.map",
+    "static/css/main.98ba05b5.chunk.css.map": "/cryptoPriceTracker/static/css/main.98ba05b5.chunk.css.map",
     "static/js/2.af3f57eb.chunk.js.LICENSE.txt": "/cryptoPriceTracker/static/js/2.af3f57eb.chunk.js.LICENSE.txt",
     "static/media/$pac.svg": "/cryptoPriceTracker/static/media/$pac.16d59c29.svg",
     "static/media/0xbtc.svg": "/cryptoPriceTracker/static/media/0xbtc.2062c6f3.svg",
@@ -485,7 +485,7 @@
   "entrypoints": [
     "static/js/runtime-main.ded9c292.js",
     "static/js/2.af3f57eb.chunk.js",
-    "static/css/main.8031bef8.chunk.css",
+    "static/css/main.98ba05b5.chunk.css",
     "static/js/main.4df2181d.chunk.js"
   ]
 }
